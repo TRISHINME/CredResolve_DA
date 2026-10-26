@@ -1,0 +1,13 @@
+# Python bytecode & environments
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Raw Data Files (Excluding large CSVs from Git history)
+*.csv
+!pipeline/obt_recovery_golden_sample.csv  # Keep sample if small enough
+
+# OS generated files
+.DS_Store
+Thumbs.db
